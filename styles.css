@@ -253,9 +253,114 @@ article {
     color: #455a64;
 }
 
+.section-4-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #455a64;
+}
 
+.repartidor{
+    width: 35rem;
+}
 
+.d-flex-section-4{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 20rem 0rem 20rem;
+}
 
+.size{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.nostyle{
+    text-decoration: none;
+}
+
+.background-gray{
+    background-color: #455a64;
+}
+
+.container-footer{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin: 0rem -2rem 0rem -2rem;
+
+}
+
+.d-flex-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nosotros{
+    text-align: left;
+}
+
+.nosotros h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.nosotros p{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.navegación{
+    text-align: left;
+}
+
+.navegación h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.navegación ul li{
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.navegación ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.contacto{
+    text-align: left;
+}
+
+.contacto h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contacto p{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.right{
+    background-color: #e8505b;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    margin: 0rem -2rem -2rem -2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
 
 
 
