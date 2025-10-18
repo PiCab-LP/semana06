@@ -8,36 +8,43 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <div>
-            <img src="./img/logo.svg">
+            <img src="./img/logo.svg" class="logoappcomida">
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="#">Iniciar sesión</a></li>
-                <li><a href="#">Crear cuenta</a></li>
-                <li><a href="#">Registrar restaurant</a></li>
+        <nav class="margin">
+            <ul class="d-flex t-align-center">
+                <li class="liststyle"><a href="#" class="navmenu">Iniciar sesión</a></li>
+                <li class="liststyle"><a href="#" class="navmenu">Crear cuenta</a></li>
+                <li class="liststyle"><a href="#" class="navmenu buttonred">Registrar restaurante</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Encuentra y Pide comida de tu restaurante favorito</h2>
+        <section class="d-flex padding">
+            <div class="container-section-1">
+                <h2>Encuentra y Pide comida de tu restaurante favorito</h2>
+                <div class="container-sub-section-1">
+                    <label>
+                    RESTAURANT
+                    <br>
+                    <input class="input" type="text"placeholder="Tacos México">
+                    </label>
+                    <label>
+                    PLATILLO
+                    <br>
+                    <input class="input" type="text" placeholder="Pizza, Ensalada, Hamburguesa">
+                    </label>
+                    <a type="submit" class="buscarbutton">Buscar</a>
+                </div>
+            </div>
             <div>
-                <label>
-                RESTAURANT
-                <input type="text" placeholder="Tacos México">
-                </label>
-                <label>
-                    Platillo
-                    <input type="text" placeholder="Pizza, Ensalada, Hamburguesa">
-                </label>
-                <button type="submit">Buscar</button>
+                <img src="./img/dibujo_repartidor.svg" class="dibujo repartidor">
             </div>
         </section>
-        <img src="./img/dibujo_repartidor.svg">
+        
 
         <section>
             <h2>¿Cómo funciona?</h2>

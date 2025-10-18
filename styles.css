@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+}
+
+.logoappcomida{
+    width: 100%;
+}
+
+.navmenu{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttonred{
+    background-color: #e8505b;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.dibujo.repartidor{
+    width: 35rem;
+}
+
+.container-section-1{
+    background-color: #e8505b;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+    font-size: 20px;
+    max-width: 30rem;
+    text-align: center;
+}
+
+.container-sub-section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 20px;
+    text-align: left;
+}
+
+.input{
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+.buscarbutton{
+    text-align: center;
+    background-color: #455a64;
+    padding: 1rem;
+    border-radius: 10px;
+}
+/* UTILITIES */
+.d-flex{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.t-align-center{
+    text-align: center;
+}
+
+.liststyle{
+    list-style: none;
+}
+
+.padding{
+    padding: 3rem;
+}
+
+.margin{
+    margin: 1rem 1rem
+}
