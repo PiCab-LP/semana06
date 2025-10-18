@@ -68,6 +68,38 @@ body{
     padding: 1rem;
     border-radius: 10px;
 }
+
+.imagenstep{
+    width: 25rem;
+}
+
+.background-red{
+    background-color: #e8505b;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    margin: 0rem -2rem 0rem -2rem;
+}
+
+.section-2-title{
+    font-size: 2rem;
+}
+
+.section-2-subtitle{
+    font-weight: bolder;
+}
+
+.l-height{
+    line-height: 10px;
+}
+
+
+
+
+
+
+
+
 /* UTILITIES */
 .d-flex{
     display: flex;
